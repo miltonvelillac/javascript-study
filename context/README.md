@@ -1,4 +1,16 @@
-* What is this? (https://www.w3schools.com/js/js_this.asp)
+
+# What is context?
+The context is the object where something is executed.
+
+In JavaScript, “context” refers to an object. Within an object, the keyword “this” refers to that object (https://blog.kevinchisholm.com/javascript/context-object-literals/)
+
+Context is always the value of the this keyword which is a reference to the object that “owns” the currently executing code or the function where it’s looked at. (https://towardsdatascience.com/javascript-context-this-keyword-9a78a19d5786)
+
+# What is this?
+The keyword this allows to access to the object (context) properties.
+
+
+(https://www.w3schools.com/js/js_this.asp)
 In JavaScript, the this keyword refers to an object.
 
 Which object depends on how this is being invoked (used or called).
